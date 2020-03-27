@@ -22,3 +22,4 @@ print("------------------------------------------------------------------------"
 print("Bill Amount:: $"+str(area*rate) + "(Area = " + str(area) + " sq. feet)")
 print("Discount:: $" + str(discount*0.01*area) + "(" + str(discount)+"%)")
 print("Final Bill Amount: $" + str((area*rate)-(discount*0.01*area)))
+print("Dear Customer, Thanks for Showing your interest.")
