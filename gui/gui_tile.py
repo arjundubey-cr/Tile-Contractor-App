@@ -1,10 +1,9 @@
 from tkinter import *
 from tkinter import messagebox
-
 ################################################
 rate = 20
 
-root = Tk(className=" Tile Contractor App")
+root = Tk(className=" Tile Contractor App by Arjun Dubey")
 root.geometry("500x200")
 
 
@@ -12,7 +11,8 @@ def get_answer():
     messagebox.showinfo(title="Info", message="Congratulations! You have grabbed an amazing offer.")
     leng = float(length.get())
     wid = float(width.get())
-    area = leng * wid
+    arjunea = leng * wid
+    area = arjunea;
     costentry.insert(0, area * rate)
     perdiscount = get_discount(area)
     discountam = perdiscount * area * rate * 0.01
